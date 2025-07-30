@@ -5,6 +5,7 @@ import LoginPage from './pages/account/Login';
 import Dashboard from './pages/account/Dashboard';
 import Profile from './pages/account/Profile';
 import ProtectedRoute from './components/ProtectedRoute';
+import './styles/index.css';
 
 
 function App() {
