@@ -1,0 +1,18 @@
+@import "reset";
+
+body {
+    background-image: url('../image/bg.jpeg');
+    background-size: cover;
+    background-position-y: -100;
+}
+
+#root {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-page-login-screen {
+    background-color: red;
+}

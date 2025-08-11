@@ -12,7 +12,7 @@ function App() {
   return (
     <AuthProvider>
       <Router>
-        <div className="min-h-screen bg-gray-50">
+        <div className="ts-app">
           <Routes>
             <Route path="/login" element={<LoginPage />} />
             <Route path="/dashboard" element={
